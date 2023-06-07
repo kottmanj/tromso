@@ -1,0 +1,9 @@
+name: Tequila Tutorial
+channels:
+  - kottmann 
+dependencies:
+  - madtequila # for qc tutorial
+  - pip:
+    - tequila-basic # for qc tutorial
+    - qulacs # for qc tutorial
+    - pyscf
