@@ -1,9 +1,10 @@
 name: Tequila Tutorial
 channels:
-  - kottmann 
+  - conda-forge
 dependencies:
-  - madtequila # for qc tutorial
+  - kottmann::madtequila
+  - pip
   - pip:
-    - tequila-basic # for qc tutorial
-    - qulacs # for qc tutorial
+    - tequila-basic
+    - qulacs
     - pyscf
