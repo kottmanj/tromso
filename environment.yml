@@ -2,6 +2,7 @@ name: tromso
 channels:
   - conda-forge
 dependencies:
+  - python=3.9
   - kottmann::madtequila
   - pip
   - pip:
