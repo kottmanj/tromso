@@ -1,14 +1,8 @@
 name: tromso
 channels:
-  - anaconda
+  - conda-forge
 dependencies:
   - python=3.9
-  - kottmann::madtequila
-  - jupyter
-  - matplotlib
-  - nb_conda_kernels
   - pip
   - pip:
     - tequila-basic
-    - qulacs
-    - pyscf
