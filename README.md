@@ -27,9 +27,10 @@ conda install madtequila -c kottmann
 ```bash
 git clone https://github.com/kottmanj/tromso
 cd tromso
-conda env -f environment.yml
-conda activate tromso
+conda env create --name tromso --file environment.yml
 conda install jupyter
+conda install -c anaconda ipykernel
+python -m ipykernel install --user --name=tromso
 jupyter notebook
 ```
 
