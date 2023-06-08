@@ -28,8 +28,7 @@ conda install madtequila -c kottmann
 git clone https://github.com/kottmanj/tromso
 cd tromso
 conda env create --name tromso --file environment.yml
-conda install jupyter
-conda install nb_kernel
+conda activate tromso
 conda install -c anaconda ipykernel
 python -m ipykernel install --user --name=tromso
 jupyter notebook
