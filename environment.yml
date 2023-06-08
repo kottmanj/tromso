@@ -1,4 +1,4 @@
-name: Tequila Tutorial
+name: tromso
 channels:
   - conda-forge
 dependencies:
