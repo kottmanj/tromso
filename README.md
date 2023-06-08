@@ -1,4 +1,8 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kottmanj/tromso/simple)
+
 # Tequila Tutorial
+Binder supported in a simplified environment (no chemistry packages)  
+
 
 ## Dependencies
 
