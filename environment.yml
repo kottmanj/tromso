@@ -6,6 +6,7 @@ dependencies:
   - kottmann::madtequila
   - jupyter
   - matplotlib
+  - nb_conda_kernels
   - pip
   - pip:
     - tequila-basic
