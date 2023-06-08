@@ -34,6 +34,9 @@ python -m ipykernel install --user --name=tromso
 jupyter notebook
 ```
 
+Then select the notebook of your choice and change the kernel:  
+`kernel` -> `change kernel` -> "tromso"  
+
 
 
 
